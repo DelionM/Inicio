@@ -1,0 +1,40 @@
+*{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h1{
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+a{
+    color: #000000;
+    text-align: center;
+    background-color:#FF5A78;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #FFB71D;
+}
+
+.imagen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 310px;
+}
